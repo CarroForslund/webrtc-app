@@ -82,7 +82,7 @@ export default function ParticipantList() {
                 participant={participant}
                 isSelected={participant === selectedParticipant}
                 onClick={() => setSelectedParticipant(participant)}
-                hideParticipant={hideParticipant}
+                // hideParticipant={hideParticipant}
               />
             );
           })}
